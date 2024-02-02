@@ -1,0 +1,77 @@
+html{
+    font-family: Helvetica;
+    background-color: #DDD;
+}
+.container{
+    max-width: 1100px;
+    background-color: #FFF;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+.bold{
+    font-weight: bold;
+}
+
+/* header */
+.header{
+    text-align: center;
+}
+.mainTitulo{
+    font-size: 50px;
+}
+.mainParagrafo{
+    font-style: italic;
+}
+.imagemDestaque{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Introdução */
+.introducaoCarecas{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+/* citações */
+
+.quotesContainer{
+    background-color: #DDD;
+    padding: 30px;
+}
+.quotesContainer blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+.quotesContainer p{
+    font-style: italic;
+}
+
+/* curiosidades */
+
+.curiosidadesContainer{
+    padding: 25px 0 ;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+.curiosidadesContainer li{
+    height: 30px;
+}
+
+.imgBold figure {
+    display: flex;
+    flex-wrap: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+}
+.imgBold img {
+    max-width: calc(100% / 5); /* Divide igualmente a largura da página entre as 5 imagens */
+    height: auto; /* Mantém a proporção da altura conforme a largura muda */
+}
+.imgBold p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+}
